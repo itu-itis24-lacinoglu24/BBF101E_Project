@@ -47,7 +47,7 @@ function checkGameOver() {
     messageDisplay.textContent = "You Win!";
     disableGame();
   } else if (lives <= 0) {
-    messageDisplay.textContent = ' You Lose! The word was "${wordToGuess}"';
+    messageDisplay.textContent = ' You Lose! The word was "Blast"';
     disableGame();
   }
 }
